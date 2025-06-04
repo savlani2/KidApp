@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.schedule-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.block {
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.block.current {
+  background-color: #dbeafe;
+  border-left: 4px solid #3b82f6;
+}
+
+.time {
+  font-weight: bold;
+  color: #374151;
+}
+
+.activity {
+  font-size: 1.2rem;
+  color: #1f2937;
+}
